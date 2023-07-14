@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>OpenPowerlifting Data</title>
+  </head>
+  <body>
+    <div id="inputSection">
+      <div class="selector">
+        <p>Select Gender:</p>
+        <select id="gender">
+          <option value="M" selected>M</option>
+          <option value="F">F</option>
+        </select>
+      </div>
+      <div class="selector">
+        <p>Select Lift:</p>
+        <select id="lift">
+          <option value="squat" selected>Squat</option>
+          <option value="bench">Bench</option>
+          <option value="deadlift">Deadlift</option>
+          <option value="total">Total</option>
+        </select>
+      </div>
+    </div>
+    <div id="myDataViz"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="visOneScript.js"></script>
+  </body>
+</html>

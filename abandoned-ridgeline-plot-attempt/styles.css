@@ -1,0 +1,13 @@
+#inputSection {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+p, select {
+  display: inline;
+}
+
+select {
+  margin-right: 50px;
+}
